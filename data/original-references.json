@@ -1,0 +1,265 @@
+{
+  "description": "Original citations extracted from uploaded myepic2 backup HTML. These are source references, not independently validated evidence. Publication dates, methods and conclusions pending verification.",
+  "topics": {
+    "fisetin": {
+      "original_article": "https://myepic2.tistory.com/5",
+      "original_posted": "2023-07-21",
+      "review_status": "unverified",
+      "references": [
+        {
+          "pmcid": "PMC7990461",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7990461/",
+          "publication_date": null,
+          "study_type": null,
+          "conclusion": null,
+          "verification": "pending"
+        },
+        {
+          "pmcid": "PMC7947859",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7947859/",
+          "publication_date": null,
+          "study_type": null,
+          "conclusion": null,
+          "verification": "pending"
+        },
+        {
+          "pmcid": "PMC5527824",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5527824/",
+          "publication_date": null,
+          "study_type": null,
+          "conclusion": null,
+          "verification": "pending"
+        },
+        {
+          "pmcid": "PMC4844953",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4844953/",
+          "publication_date": null,
+          "study_type": null,
+          "conclusion": null,
+          "verification": "pending"
+        },
+        {
+          "pmcid": "PMC7998948",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7998948/",
+          "publication_date": null,
+          "study_type": null,
+          "conclusion": null,
+          "verification": "pending"
+        },
+        {
+          "pmcid": "PMC7802565",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7802565/",
+          "publication_date": null,
+          "study_type": null,
+          "conclusion": null,
+          "verification": "pending"
+        },
+        {
+          "pmcid": "PMC6374379",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6374379/",
+          "publication_date": null,
+          "study_type": null,
+          "conclusion": null,
+          "verification": "pending"
+        }
+      ]
+    },
+    "nmn": {
+      "original_article": "https://myepic2.tistory.com/6",
+      "original_posted": "2023-07-21",
+      "review_status": "unverified",
+      "references": [
+        {
+          "pmcid": "PMC7206476",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7206476/",
+          "publication_date": null,
+          "study_type": null,
+          "conclusion": null,
+          "verification": "pending"
+        },
+        {
+          "pmcid": "PMC8550608",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8550608/",
+          "publication_date": null,
+          "study_type": null,
+          "conclusion": null,
+          "verification": "pending"
+        },
+        {
+          "pmcid": "PMC9861325",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9861325/",
+          "publication_date": null,
+          "study_type": null,
+          "conclusion": null,
+          "verification": "pending"
+        },
+        {
+          "pmcid": "PMC7741797",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7741797/",
+          "publication_date": null,
+          "study_type": null,
+          "conclusion": null,
+          "verification": "pending"
+        },
+        {
+          "pmcid": "PMC4048236",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4048236/",
+          "publication_date": null,
+          "study_type": null,
+          "conclusion": null,
+          "verification": "pending"
+        },
+        {
+          "pmcid": "PMC6815288",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6815288/",
+          "publication_date": null,
+          "study_type": null,
+          "conclusion": null,
+          "verification": "pending"
+        },
+        {
+          "pmcid": "PMC9969499",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9969499/",
+          "publication_date": null,
+          "study_type": null,
+          "conclusion": null,
+          "verification": "pending"
+        },
+        {
+          "pmcid": "PMC8667784",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8667784/",
+          "publication_date": null,
+          "study_type": null,
+          "conclusion": null,
+          "verification": "pending"
+        }
+      ]
+    },
+    "omega3": {
+      "original_article": "https://myepic2.tistory.com/13",
+      "original_posted": "2023-07-29",
+      "review_status": "unverified",
+      "references": [
+        {
+          "pmcid": "PMC8854294",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8854294/",
+          "publication_date": null,
+          "study_type": null,
+          "conclusion": null,
+          "verification": "pending"
+        },
+        {
+          "pmcid": "PMC6736389",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6736389/",
+          "publication_date": null,
+          "study_type": null,
+          "conclusion": null,
+          "verification": "pending"
+        },
+        {
+          "pmcid": "PMC6163264",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6163264/",
+          "publication_date": null,
+          "study_type": null,
+          "conclusion": null,
+          "verification": "pending"
+        },
+        {
+          "pmcid": "PMC6801729",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6801729/",
+          "publication_date": null,
+          "study_type": null,
+          "conclusion": null,
+          "verification": "pending"
+        },
+        {
+          "pmcid": "PMC3360741",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3360741/",
+          "publication_date": null,
+          "study_type": null,
+          "conclusion": null,
+          "verification": "pending"
+        },
+        {
+          "pmcid": "PMC4895039",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4895039/",
+          "publication_date": null,
+          "study_type": null,
+          "conclusion": null,
+          "verification": "pending"
+        },
+        {
+          "pmcid": "PMC6861077",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6861077/",
+          "publication_date": null,
+          "study_type": null,
+          "conclusion": null,
+          "verification": "pending"
+        }
+      ]
+    },
+    "ca-akg": {
+      "original_article": "https://myepic2.tistory.com/42",
+      "original_posted": "2024-02-26",
+      "review_status": "unverified",
+      "references": [
+        {
+          "pmcid": "PMC7645772",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7645772/",
+          "publication_date": null,
+          "study_type": null,
+          "conclusion": null,
+          "verification": "pending"
+        },
+        {
+          "pmcid": "PMC9067931",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9067931/",
+          "publication_date": null,
+          "study_type": null,
+          "conclusion": null,
+          "verification": "pending"
+        },
+        {
+          "pmcid": "PMC6629006",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6629006/",
+          "publication_date": null,
+          "study_type": null,
+          "conclusion": null,
+          "verification": "pending"
+        },
+        {
+          "pmcid": "PMC8508957",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8508957/",
+          "publication_date": null,
+          "study_type": null,
+          "conclusion": null,
+          "verification": "pending"
+        },
+        {
+          "pmcid": "PMC8660611",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8660611/",
+          "publication_date": null,
+          "study_type": null,
+          "conclusion": null,
+          "verification": "pending"
+        },
+        {
+          "pmcid": "PMC6601488",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6601488/",
+          "publication_date": null,
+          "study_type": null,
+          "conclusion": null,
+          "verification": "pending"
+        },
+        {
+          "pmcid": "PMC9409265",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9409265/",
+          "publication_date": null,
+          "study_type": null,
+          "conclusion": null,
+          "verification": "pending"
+        }
+      ]
+    }
+  }
+}
