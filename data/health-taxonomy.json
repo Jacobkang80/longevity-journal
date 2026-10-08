@@ -1,0 +1,60 @@
+{
+  "updated": "2026-10-08",
+  "status": "initial_topic_index",
+  "note": "Do not mistake this topic index for verified publication timeline. Verify DOI, year, population, study design and outcomes before publishing claims.",
+  "groups": [
+    {
+      "id": "longevity-molecules",
+      "label": "Longevity Molecules",
+      "topics": [
+        "NMN",
+        "Fisetin",
+        "CA-AKG",
+        "Resveratrol",
+        "Anthocyanin",
+        "Omega-3",
+        "TMG"
+      ]
+    },
+    {
+      "id": "metabolic-nutrition",
+      "label": "Nutrition & Metabolism",
+      "topics": [
+        "MCT Oil",
+        "Fasting",
+        "Ketogenic Diet"
+      ]
+    },
+    {
+      "id": "clinical-prevention",
+      "label": "Clinical Prevention & Safety",
+      "topics": [
+        "Aspirin"
+      ]
+    },
+    {
+      "id": "exercise-science",
+      "label": "Exercise Science",
+      "topics": [
+        "HIIT",
+        "Zone 2",
+        "Strength Training"
+      ]
+    }
+  ],
+  "evidence_levels": [
+    "Systematic review/meta-analysis (assess included study quality)",
+    "Human randomized controlled trial",
+    "Human observational study",
+    "Animal study",
+    "Cell/mechanistic study"
+  ],
+  "editorial_rules": [
+    "Preserve original source dates and links",
+    "Distinguish biological markers from clinical outcomes",
+    "Chronological timeline must use verified publication years",
+    "Report null findings, limitations, and conflicts of interest",
+    "Separate drugs from supplements and foods",
+    "No advertising until article count exceeds 100"
+  ]
+}
