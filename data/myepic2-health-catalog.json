@@ -1,0 +1,176 @@
+{
+  "source": "Tistory myepic2 ZIP backup, article1-63",
+  "status": "catalogued_not_full_text_migrated",
+  "editorial_note": "Titles are edited for readability. Original texts and images remain in ZIP pending source-faithful migration and scientific review.",
+  "categories": {
+    "molecules": "Longevity Molecules",
+    "exercise": "Exercise Science",
+    "nutrition": "Nutrition & Fasting",
+    "biology": "Aging Biology",
+    "evidence": "Evidence Library"
+  },
+  "articles": [
+    {
+      "id": 5,
+      "date": "2023-07-21",
+      "section": "molecules",
+      "title": "Fisetin: 노화세포 연구와 인체 근거",
+      "source_url": "https://myepic2.tistory.com/5",
+      "review_status": "pending",
+      "migration_status": "catalogued"
+    },
+    {
+      "id": 6,
+      "date": "2023-07-21",
+      "section": "molecules",
+      "title": "NMN: NAD⁺와 노화 연구",
+      "source_url": "https://myepic2.tistory.com/6",
+      "review_status": "pending",
+      "migration_status": "catalogued"
+    },
+    {
+      "id": 11,
+      "date": "2023-07-29",
+      "section": "nutrition",
+      "title": "간헐적 단식과 건강",
+      "source_url": "https://myepic2.tistory.com/11",
+      "review_status": "pending",
+      "migration_status": "catalogued"
+    },
+    {
+      "id": 12,
+      "date": "2023-07-29",
+      "section": "nutrition",
+      "title": "간헐적 단식과 대사질환 관련 주장 검토",
+      "source_url": "https://myepic2.tistory.com/12",
+      "review_status": "pending",
+      "migration_status": "catalogued"
+    },
+    {
+      "id": 13,
+      "date": "2023-07-29",
+      "section": "molecules",
+      "title": "오메가3: 심혈관·인지건강 근거 검토",
+      "source_url": "https://myepic2.tistory.com/13",
+      "review_status": "pending",
+      "migration_status": "catalogued"
+    },
+    {
+      "id": 14,
+      "date": "2023-07-29",
+      "section": "nutrition",
+      "title": "케토제닉 식단의 건강 영향",
+      "source_url": "https://myepic2.tistory.com/14",
+      "review_status": "pending",
+      "migration_status": "catalogued"
+    },
+    {
+      "id": 15,
+      "date": "2023-07-29",
+      "section": "nutrition",
+      "title": "MCT 오일과 케토시스",
+      "source_url": "https://myepic2.tistory.com/15",
+      "review_status": "pending",
+      "migration_status": "catalogued"
+    },
+    {
+      "id": 16,
+      "date": "2023-07-29",
+      "section": "nutrition",
+      "title": "정제 탄수화물과 대사 건강",
+      "source_url": "https://myepic2.tistory.com/16",
+      "review_status": "pending",
+      "migration_status": "catalogued"
+    },
+    {
+      "id": 17,
+      "date": "2023-07-29",
+      "section": "exercise",
+      "title": "HIIT와 건강수명",
+      "source_url": "https://myepic2.tistory.com/17",
+      "review_status": "pending",
+      "migration_status": "catalogued"
+    },
+    {
+      "id": 18,
+      "date": "2023-07-29",
+      "section": "evidence",
+      "title": "Fisetin·Nrf2·UVB 피부 손상 동물연구",
+      "source_url": "https://myepic2.tistory.com/18",
+      "review_status": "pending",
+      "migration_status": "catalogued"
+    },
+    {
+      "id": 19,
+      "date": "2023-07-29",
+      "section": "evidence",
+      "title": "NMN·SIRT1·미토콘드리아 관련 논문",
+      "source_url": "https://myepic2.tistory.com/19",
+      "review_status": "pending",
+      "migration_status": "catalogued"
+    },
+    {
+      "id": 24,
+      "date": "2023-08-04",
+      "section": "molecules",
+      "title": "레스베라트롤 연구",
+      "source_url": "https://myepic2.tistory.com/24",
+      "review_status": "pending",
+      "migration_status": "catalogued"
+    },
+    {
+      "id": 30,
+      "date": "2023-08-06",
+      "section": "nutrition",
+      "title": "카페인: 피로와 각성",
+      "source_url": "https://myepic2.tistory.com/30",
+      "review_status": "pending",
+      "migration_status": "catalogued"
+    },
+    {
+      "id": 42,
+      "date": "2024-02-26",
+      "section": "molecules",
+      "title": "CA-AKG 관련 연구",
+      "source_url": "https://myepic2.tistory.com/42",
+      "review_status": "pending",
+      "migration_status": "catalogued"
+    },
+    {
+      "id": 43,
+      "date": "2024-02-26",
+      "section": "biology",
+      "title": "당독소 AGEs와 건강",
+      "source_url": "https://myepic2.tistory.com/43",
+      "review_status": "pending",
+      "migration_status": "catalogued"
+    },
+    {
+      "id": 44,
+      "date": "2024-03-10",
+      "section": "molecules",
+      "title": "안토시아닌의 효능과 검증 논문",
+      "source_url": "https://myepic2.tistory.com/44",
+      "review_status": "pending",
+      "migration_status": "catalogued"
+    },
+    {
+      "id": 45,
+      "date": "2024-03-10",
+      "section": "biology",
+      "title": "노화의 정의와 역노화 생활 방식",
+      "source_url": "https://myepic2.tistory.com/45",
+      "review_status": "pending",
+      "migration_status": "catalogued"
+    },
+    {
+      "id": 46,
+      "date": "2024-03-27",
+      "section": "biology",
+      "title": "감사하기와 건강 관련 연구",
+      "source_url": "https://myepic2.tistory.com/46",
+      "review_status": "pending",
+      "migration_status": "catalogued"
+    }
+  ]
+}
