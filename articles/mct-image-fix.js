@@ -20,6 +20,7 @@ addTopic('#topic/노화','Aging');
 addTopic('#topic/감사','Gratitude');
 addTopic('#topic/수면','Sleep');
 addTopic('#topic/항노화','Supplements');
+addTopic('#topic/근육','Muscle');
 
 const refreshRoute=()=>{
   let tries=0;
@@ -43,4 +44,5 @@ ensureScript('articles/aging-strategy-deep.js','aging','aging-reversal-healthspa
 ensureScript('articles/gratitude-deep.js','gratitude','gratitude-health-evidence');
 ensureScript('articles/sleep-deep.js','sleep','sleep-longevity-evidence');
 ensureScript('articles/longevity-supplements-2026.js','supplements','longevity-supplements-2026');
+ensureScript('articles/muscle-longevity-deep.js','muscle','muscle-longevity-evidence');
 })();
