@@ -18,6 +18,7 @@ const addTopic=(href,label)=>{
 };
 addTopic('#topic/노화','Aging');
 addTopic('#topic/감사','Gratitude');
+addTopic('#topic/수면','Sleep');
 
 const refreshRoute=()=>{
   let tries=0;
@@ -39,4 +40,5 @@ const ensureScript=(src,key,slug)=>{
 };
 ensureScript('articles/aging-strategy-deep.js','aging','aging-reversal-healthspan-guide');
 ensureScript('articles/gratitude-deep.js','gratitude','gratitude-health-evidence');
+ensureScript('articles/sleep-deep.js','sleep','sleep-longevity-evidence');
 })();
