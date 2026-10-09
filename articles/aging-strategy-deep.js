@@ -95,7 +95,7 @@ posts.push({
 <p>식단에서는 하나의 영양제보다 전체 패턴이 우선입니다. 채소·콩류·통곡물·견과류·생선·올리브유가 중심인 Mediterranean-style pattern은 심혈관·대사 건강에 대한 인간 근거가 가장 풍부한 식사방식 중 하나입니다.</p>
 <p>이 블로그에서 올리브유와 오메가3를 HEALTH 상단에 두는 이유도 같습니다. 둘은 ‘역노화 약’이라기보다 <b>장기간의 심혈관·대사·염증 환경을 유리하게 만드는 식사 구성요소</b>로서 인간 근거가 비교적 탄탄합니다. 그 위에 anthocyanin, resveratrol, fisetin 같은 polyphenol을 연구하는 것이 더 자연스럽습니다.</p>
 
-<h2>14. 금연과 금주 — 왜 LEVEL 1이어야 하나?</h2>
+<h2>14. 건강수명의 기본 — 금연·금주와 예방 가능한 위험 줄이기</h2>
 <p>이전 개정판에서 금연은 넣고 금주를 빠뜨린 것은 균형이 맞지 않았습니다. <b>장수·암예방 관점에서 금주는 LEVEL 1에 들어가야 합니다.</b></p>
 <p>IARC는 alcoholic beverages와 alcoholic beverages 속 ethanol, 음주와 관련된 acetaldehyde를 <b>Group 1 carcinogenic to humans</b>로 분류합니다. Group 1은 ‘다른 Group 1 물질과 위험 크기가 똑같다’는 뜻이 아니라, <b>사람에게 암을 일으킨다는 인과 근거가 충분하다</b>는 분류입니다. WHO와 IARC는 암 위험에 대해서는 안전한 음주량이 확인되지 않았으며, 적게 마실수록 위험이 낮고 금주가 암예방에는 가장 보수적인 선택이라고 설명합니다.</p>
 <div class="evidence-grid">
