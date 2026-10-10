@@ -26,6 +26,7 @@ addTopic('#topic/혈당·인슐린','혈당·인슐린');
 addTopic('#topic/영양 감지','Nutrient sensing');
 addTopic('#topic/생물학적 나이','Biological age');
 addTopic('#topic/Hormesis','Hormesis');
+addTopic('#topic/Geroscience','Geroscience');
 
 const refreshRoute=()=>{
   let tries=0;
@@ -56,4 +57,5 @@ ensureScript('articles/glycemic-variability-deep.js','glycemic-variability','gly
 ensureScript('articles/nutrient-sensing-mtor-ampk-sirtuin-deep.js','nutrient-sensing','mtor-ampk-sirtuin-nutrient-sensing');
 ensureScript('articles/epigenetic-clock-biological-age-deep.js','epigenetic-clock','epigenetic-clock-biological-age-evidence');
 ensureScript('articles/sauna-cold-exposure-longevity-deep.js','sauna-cold','sauna-cold-exposure-longevity-evidence');
+ensureScript('articles/rapamycin-metformin-geroscience-deep.js','geroscience-drugs','rapamycin-metformin-geroscience-evidence');
 })();
