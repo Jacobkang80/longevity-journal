@@ -23,6 +23,7 @@ addTopic('#topic/항노화','Supplements');
 addTopic('#topic/근육','Muscle');
 addTopic('#topic/VO2max','VO₂max');
 addTopic('#topic/혈당·인슐린','혈당·인슐린');
+addTopic('#topic/영양 감지','Nutrient sensing');
 
 const refreshRoute=()=>{
   let tries=0;
@@ -50,4 +51,5 @@ ensureScript('articles/muscle-longevity-deep.js','muscle','muscle-longevity-evid
 ensureScript('articles/vo2max-longevity-deep.js','vo2max','vo2max-longevity-evidence');
 ensureScript('articles/insulin-resistance-deep.js','insulin-resistance','insulin-resistance-longevity-evidence');
 ensureScript('articles/glycemic-variability-deep.js','glycemic-variability','glycemic-variability-glucose-spikes-evidence');
+ensureScript('articles/nutrient-sensing-mtor-ampk-sirtuin-deep.js','nutrient-sensing','mtor-ampk-sirtuin-nutrient-sensing');
 })();
