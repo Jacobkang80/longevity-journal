@@ -49,4 +49,5 @@ ensureScript('articles/longevity-supplements-2026.js','supplements','longevity-s
 ensureScript('articles/muscle-longevity-deep.js','muscle','muscle-longevity-evidence');
 ensureScript('articles/vo2max-longevity-deep.js','vo2max','vo2max-longevity-evidence');
 ensureScript('articles/insulin-resistance-deep.js','insulin-resistance','insulin-resistance-longevity-evidence');
+ensureScript('articles/glycemic-variability-deep.js','glycemic-variability','glycemic-variability-glucose-spikes-evidence');
 })();
