@@ -24,6 +24,7 @@ addTopic('#topic/근육','Muscle');
 addTopic('#topic/VO2max','VO₂max');
 addTopic('#topic/혈당·인슐린','혈당·인슐린');
 addTopic('#topic/영양 감지','Nutrient sensing');
+addTopic('#topic/생물학적 나이','Biological age');
 
 const refreshRoute=()=>{
   let tries=0;
@@ -52,4 +53,5 @@ ensureScript('articles/vo2max-longevity-deep.js','vo2max','vo2max-longevity-evid
 ensureScript('articles/insulin-resistance-deep.js','insulin-resistance','insulin-resistance-longevity-evidence');
 ensureScript('articles/glycemic-variability-deep.js','glycemic-variability','glycemic-variability-glucose-spikes-evidence');
 ensureScript('articles/nutrient-sensing-mtor-ampk-sirtuin-deep.js','nutrient-sensing','mtor-ampk-sirtuin-nutrient-sensing');
+ensureScript('articles/epigenetic-clock-biological-age-deep.js','epigenetic-clock','epigenetic-clock-biological-age-evidence');
 })();
