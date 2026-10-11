@@ -83,5 +83,5 @@ ensureScript('articles/senolytics-fisetin-map-deep.js','senolytics-map','senolyt
 ensureScript('articles/taurine-glycine-creatine-longevity-deep.js','longevity-nutrients','taurine-glycine-creatine-longevity-evidence');
 ensureScript('articles/microbiome-healthy-aging-deep.js?v=20261011-1408','microbiome-aging-v2','microbiome-healthy-aging-evidence',fixMicrobiomeCopy);
 ensureScript('articles/cardiovascular-longevity-numbers-deep.js?v=20261011-11','cardiovascular-longevity','cardiovascular-longevity-numbers');
-ensureScript('articles/biological-age-lab.js?v=20261011-lab1','biological-age-lab','biological-age-lab',()=>window.BioAgeLab?.init());
+ensureScript('articles/biological-age-lab.js?v=20261011-lab2','biological-age-lab-v2','biological-age-lab',()=>window.BioAgeLab?.init());
 })();
