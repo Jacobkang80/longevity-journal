@@ -30,6 +30,7 @@ addTopic('#topic/Geroscience','Geroscience');
 addTopic('#topic/Senolytics','Senolytics');
 addTopic('#topic/장수 영양소','Longevity nutrients');
 addTopic('#topic/Microbiome','Microbiome');
+addTopic('#topic/심혈관','Cardiovascular');
 
 const refreshRoute=()=>{
   let tries=0;
@@ -80,4 +81,5 @@ ensureScript('articles/rapamycin-metformin-geroscience-deep.js','geroscience-dru
 ensureScript('articles/senolytics-fisetin-map-deep.js','senolytics-map','senolytics-fisetin-current-evidence');
 ensureScript('articles/taurine-glycine-creatine-longevity-deep.js','longevity-nutrients','taurine-glycine-creatine-longevity-evidence');
 ensureScript('articles/microbiome-healthy-aging-deep.js?v=20261011-1408','microbiome-aging-v2','microbiome-healthy-aging-evidence',fixMicrobiomeCopy);
+ensureScript('articles/cardiovascular-longevity-numbers-deep.js?v=20261011-11','cardiovascular-longevity','cardiovascular-longevity-numbers');
 })();
