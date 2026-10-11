@@ -39,15 +39,31 @@ const refreshRoute=()=>{
   };
   run();
 };
-const ensureScript=(src,key,slug)=>{
-  if((window.JOURNAL_POSTS||[]).some(x=>x.slug===slug))return;
+const ensureScript=(src,key,slug,onload)=>{
+  if((window.JOURNAL_POSTS||[]).some(x=>x.slug===slug)){
+    if(onload) onload();
+    return;
+  }
   if(document.querySelector(`script[data-longform="${key}"]`))return;
   const s=document.createElement('script');
   s.src=src;
   s.async=false;
   s.dataset.longform=key;
-  s.onload=refreshRoute;
+  s.onload=()=>{
+    if(onload) onload();
+    refreshRoute();
+  };
   document.head.appendChild(s);
+};
+const fixMicrobiomeCopy=()=>{
+  const post=(window.JOURNAL_POSTS||[]).find(x=>x.slug==='microbiome-healthy-aging-evidence');
+  if(!post)return;
+  post.html=post.html
+    .replace(
+      '<h2>07. 동물실험은 ‘원인일 가능성’을 보여주는 연구 도구다</h2>',
+      '<h2>07. 장내미생물군을 바꾸면 노화 지표도 달라질까? — 동물실험이 보여주는 인과성</h2>'
+    )
+    .replaceAll('미생물 군집 이식','장내미생물군 이식');
 };
 ensureScript('articles/aging-strategy-deep.js','aging','aging-reversal-healthspan-guide');
 ensureScript('articles/gratitude-deep.js','gratitude','gratitude-health-evidence');
@@ -63,5 +79,5 @@ ensureScript('articles/sauna-cold-exposure-longevity-deep.js','sauna-cold','saun
 ensureScript('articles/rapamycin-metformin-geroscience-deep.js','geroscience-drugs','rapamycin-metformin-geroscience-evidence');
 ensureScript('articles/senolytics-fisetin-map-deep.js','senolytics-map','senolytics-fisetin-current-evidence');
 ensureScript('articles/taurine-glycine-creatine-longevity-deep.js','longevity-nutrients','taurine-glycine-creatine-longevity-evidence');
-ensureScript('articles/microbiome-healthy-aging-deep.js','microbiome-aging','microbiome-healthy-aging-evidence');
+ensureScript('articles/microbiome-healthy-aging-deep.js?v=20261011-1408','microbiome-aging-v2','microbiome-healthy-aging-evidence',fixMicrobiomeCopy);
 })();
