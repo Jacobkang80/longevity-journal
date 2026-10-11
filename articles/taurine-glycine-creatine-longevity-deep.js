@@ -1,0 +1,138 @@
+(()=>{
+const posts=window.JOURNAL_POSTS=window.JOURNAL_POSTS||[];
+if(posts.some(x=>x.slug==='taurine-glycine-creatine-longevity-evidence'))return;
+const paper=(year,title,body,url,label='PubMed')=>`<div class="paper"><time>${year}</time><div><b>${title}</b><br>${body}<br><a href="${url}" target="_blank" rel="noopener noreferrer">${label} ↗</a></div></div>`;
+posts.push({
+  slug:'taurine-glycine-creatine-longevity-evidence',
+  category:'health',
+  date:'2026-10-11',
+  title:'다음 항노화 영양제는 무엇일까? — Taurine, Glycine, Creatine의 근거',
+  excerpt:'Taurine은 2023년 Science 논문으로 주목받았지만 인간의 연령별 감소 가설은 후속연구에서 흔들렸습니다. Glycine은 생쥐 수명을 소폭 늘렸고, Creatine은 수명연장보다 근육·기능·건강노화 근거가 가장 탄탄합니다. 세 물질을 같은 기준으로 비교합니다.',
+  tags:['장수 영양소','Longevity nutrients','Taurine','타우린','Glycine','글리신','Creatine','크레아틴','Creatine monohydrate','Sarcopenia','근육','Glutathione','Methionine','Mitochondria','Healthy aging','Healthspan','Longevity'],
+  html:`
+<p class="editor-note"><strong>LONGEVITY JOURNAL 핵심 글 ⑨:</strong> Senolytics까지 Geroscience의 약물·세포 전략을 살펴봤다면, 이번 글은 다시 현실적인 영양소로 돌아옵니다. <b>Taurine, Glycine, Creatine은 모두 ‘항노화’라는 이름으로 언급되지만 근거의 종류가 전혀 다릅니다.</b> 근거 검토일 2026-10-11.</p>
+
+<div class="takeaway"><strong>30초 핵심 요약</strong><p><b>현재 세 물질 중 인간 건강노화에 가장 실용적인 근거가 탄탄한 것은 Creatine입니다.</b> 다만 이것은 creatine이 인간 수명을 늘렸다는 뜻이 아니라, 노화에서 중요한 근력·제지방량·신체기능을 특히 저항운동과 함께 개선한다는 뜻입니다. <b>Taurine</b>은 2023년 동물 수명연장 연구가 매우 흥미롭고 최근 인간 RCT 메타분석에서도 혈압·혈당·인슐린저항성 등 대사지표 개선 신호가 있지만, ‘혈중 taurine이 나이 들수록 감소한다’는 핵심 가설은 2025년 <i>Science</i> 후속연구에서 재현되지 않았습니다. <b>Glycine</b>은 NIA ITP 생쥐에서 약 4~6% 수명연장을 보였지만 인간에서 노화 지연이나 수명연장을 검증한 임상시험은 아직 없습니다. 따라서 세 물질을 모두 ‘검증된 항노화 영양제’라고 부르는 것은 현재 근거보다 앞서갑니다.</p></div>
+
+<h2>01. ‘항노화 영양제’를 무엇으로 평가해야 할까?</h2>
+<p>보충제 연구를 읽을 때 가장 흔한 오류는 <b>기전 → 바이오마커 → 건강수명 → 수명연장</b>을 하나의 결과처럼 취급하는 것입니다. 하지만 이 네 단계는 서로 다릅니다.</p>
+<div class="pathway" aria-label="longevity nutrient evidence ladder">
+  <div class="pathway-step"><b>Mechanism</b><span>미토콘드리아 · 항산화 · methylation</span></div><div class="pathway-arrow">→</div>
+  <div class="pathway-step"><b>Biomarker</b><span>혈당 · 근육량 · 염증</span></div><div class="pathway-arrow">→</div>
+  <div class="pathway-step highlight"><b>Healthspan</b><span>근력 · 기능 · 질병위험</span></div><div class="pathway-arrow">→</div>
+  <div class="pathway-step"><b>Lifespan</b><span>실제 수명 · 사망위험</span></div>
+</div>
+<p>Taurine, Glycine, Creatine을 같은 기준으로 놓으면 각각 강한 지점이 다릅니다. Taurine은 <b>동물 geroscience + 인간 cardiometabolic biomarker</b>, Glycine은 <b>동물 lifespan + 기전</b>, Creatine은 <b>인간 근육·기능 RCT</b>에 상대적으로 강합니다.</p>
+
+<h2>02. 한눈에 보는 현재 Evidence Map</h2>
+<div class="evidence-grid">
+  <div class="evidence-card"><b>Taurine</b><span><strong>동물 수명:</strong> 강한 신호<br><strong>인간 대사:</strong> 중간~좋음<br><strong>인간 수명:</strong> 없음<br><strong>핵심 변수:</strong> 연령에 따른 taurine 감소 가설이 2025년 재검토됨.</span></div>
+  <div class="evidence-card"><b>Glycine</b><span><strong>동물 수명:</strong> 소폭 증가<br><strong>인간 노화:</strong> 약함<br><strong>인간 수명:</strong> 없음<br><strong>핵심 변수:</strong> glutathione·methionine metabolism·one-carbon metabolism.</span></div>
+  <div class="evidence-card"><b>Creatine</b><span><strong>동물 수명:</strong> 핵심 근거 아님<br><strong>인간 기능:</strong> 가장 강함<br><strong>인간 수명:</strong> 없음<br><strong>핵심 변수:</strong> 저항운동과 함께 근력·제지방량·기능 보존.</span></div>
+</div>
+
+<h2>03. Taurine — 2023년 왜 세계적인 ‘장수 영양소’가 됐을까?</h2>
+<p>Taurine은 단백질을 만드는 표준 아미노산은 아니지만 심장·근육·망막·뇌 등 여러 조직에 높은 농도로 존재하는 sulfur-containing amino acid입니다. 담즙산 결합, 세포 삼투압, 칼슘 조절, 미토콘드리아 기능과 세포막 안정성 등 다양한 생리 기능에 관여합니다.</p>
+<p>2023년 <i>Science</i> 논문은 이 분야의 관심을 폭발시켰습니다. 연구진은 생쥐·원숭이·인간에서 혈중 taurine이 나이에 따라 낮아지는 경향을 보고했고, 중년 생쥐에 taurine을 투여했을 때 <b>건강지표와 수명이 개선</b>됐습니다. 원숭이에서도 체중·골밀도·대사지표 등 일부 healthspan 신호가 개선됐습니다.</p>
+<p>기전적으로는 cellular senescence, 미토콘드리아 기능, DNA damage, 염증 등 여러 hallmark와 연결되는 결과가 보고됐습니다. 이 연구가 중요한 이유는 하나의 바이오마커만 움직인 것이 아니라 여러 종과 여러 노화지표를 한 번에 연결했기 때문입니다.</p>
+
+${paper('2023','Taurine deficiency as a driver of aging','생쥐·원숭이·인간의 taurine과 노화를 연결하고, 생쥐에서 taurine 보충이 healthspan과 lifespan을 개선한 대표 연구입니다. 인간에서 수명연장을 입증한 연구는 아닙니다.','https://pubmed.ncbi.nlm.nih.gov/37289866/')}
+
+<h2>04. 하지만 2025년, 핵심 전제가 흔들렸다</h2>
+<p>2023년 연구에서 가장 강한 서사는 <b>“나이가 들수록 taurine이 감소한다 → 이 결핍을 보충하면 노화를 늦출 수 있다”</b>였습니다. 그러나 2025년 <i>Science</i>에 발표된 NIH 중심 연구는 이 첫 번째 화살표를 재검토했습니다.</p>
+<p>서로 다른 지역의 인간 코호트와 비인간 영장류·생쥐 자료를 종단·횡단으로 분석했을 때, 혈중 taurine은 나이에 따라 일관되게 감소하지 않았고 일부에서는 오히려 증가하거나 변화가 없었습니다.</p>
+<div class="takeaway"><strong>왜 이것이 중요한가?</strong><p>이 결과는 taurine의 모든 가능성을 부정하지 않습니다. <b>taurine 보충이 특정 대사질환이나 조건에서 유익할 가능성</b>과 <b>혈중 taurine 감소가 보편적인 노화 원인이라는 주장</b>은 별개의 질문입니다. 후자의 근거는 2025년 이후 훨씬 불확실해졌습니다.</p></div>
+
+${paper('2025','Is taurine an aging biomarker?','세 지역 인간 코호트와 동물 자료에서 taurine이 나이에 따라 일관되게 감소하지 않는다고 보고해 2023년의 핵심 biomarker 가설에 중요한 반론을 제시했습니다.','https://pubmed.ncbi.nlm.nih.gov/40472098/')}
+
+<h2>05. 그렇다면 사람에게서 Taurine은 아무 효과가 없을까?</h2>
+<p>그렇지는 않습니다. 2024년 25개 RCT, 1,024명을 묶은 메타분석에서는 taurine이 수축기·이완기 혈압, 공복혈당, 중성지방을 소폭 개선하는 신호가 보고됐습니다. 그리고 2026년 34개 RCT 메타분석에서는 공복혈당, HbA1c, fasting insulin, HOMA-IR, 중성지방, LDL, 혈압과 일부 염증·산화스트레스 지표가 개선됐습니다.</p>
+<p>다만 이 연구들의 참가자는 건강한 장수인구만이 아니라 비만·대사질환·심혈관 위험군 등이 섞여 있습니다. 따라서 <b>대사지표 개선 = 노화 속도 감소 = 수명연장</b>으로 해석할 수는 없습니다.</p>
+
+${paper('2024','Taurine reduces the risk for metabolic syndrome: meta-analysis of RCTs','25개 무작위시험에서 혈압·공복혈당·중성지방 등 일부 대사위험 지표가 개선됐습니다.','https://pubmed.ncbi.nlm.nih.gov/38755142/')}
+${paper('2026','Effects of Oral Taurine Supplementation on Cardiometabolic Risk Factors','34개 RCT 메타분석에서 혈당·HbA1c·HOMA-IR·지질·혈압 등 다양한 중간지표 개선을 보고했습니다. 수명시험은 아닙니다.','https://pubmed.ncbi.nlm.nih.gov/41275513/')}
+
+<h2>06. Glycine — 너무 단순해서 오히려 흥미로운 아미노산</h2>
+<p>Glycine은 가장 단순한 아미노산이지만 대사에서는 역할이 복잡합니다. Collagen의 주요 구성성분이고, glutathione 합성에 필요하며, creatine 합성에도 관여합니다. 또한 one-carbon metabolism에서 glycine N-methyltransferase(GNMT)를 통해 methionine/SAM 대사와 연결됩니다.</p>
+<p>장수 연구에서 특히 흥미로운 지점은 <b>methionine restriction</b>입니다. 여러 모델동물에서 methionine 제한은 수명을 늘리는데, glycine은 methionine 대사를 완충하고 methyl-group 처리에 관여해 일부 효과를 모방할 수 있다는 가설이 있습니다.</p>
+
+<h2>07. 생쥐에서는 실제로 수명이 늘었다</h2>
+<p>2019년 NIA Interventions Testing Program은 유전적으로 다양한 생쥐를 세 독립 연구기관에서 시험했습니다. 식이의 8%를 glycine으로 구성한 군에서 <b>수명이 약 4~6% 증가</b>했고, 최대수명도 증가했습니다. 효과는 수컷과 암컷 모두에서 관찰됐습니다.</p>
+<p>Rapamycin의 생쥐 수명효과만큼 크지는 않지만, ITP의 강점은 서로 다른 기관에서 같은 프로토콜로 재현성을 검증한다는 데 있습니다. 따라서 glycine의 동물 lifespan signal은 단순한 단일 실험보다 신뢰도가 높습니다.</p>
+
+${paper('2019','Glycine supplementation extends lifespan of male and female mice','NIA ITP의 유전적으로 다양한 생쥐에서 glycine이 수명을 약 4~6% 늘리고 최대수명도 증가시킨 연구입니다.','https://pubmed.ncbi.nlm.nih.gov/30916479/')}
+
+<h2>08. 그런데 사람에게서는 왜 아직 결론이 약할까?</h2>
+<p>문제는 번역입니다. 2024년 인간 glycine 투여 연구를 정리한 systematic review는 건강한 성인과 질환군 연구들을 검토했지만, 연구기간이 짧고 표본이 작으며 결과가 다양한 문제를 지적했습니다. 건강한 사람에서 노화를 지연하거나 역전시키는지 평가하기에는 근거가 부족했습니다.</p>
+<p>수면 관련 작은 연구, 대사·염증 관련 연구, GlyNAC(glycine+N-acetylcysteine) 연구는 흥미롭지만 <b>glycine 단독의 인간 장수효과</b>와 동일한 근거가 아닙니다. 특히 GlyNAC은 두 물질을 함께 투여하므로 효과를 glycine 하나에 귀속할 수 없습니다.</p>
+
+${paper('2024','The effect of glycine administration on physiological systems in human adults','인간 glycine 연구를 정리한 systematic review. 일부 신호는 있으나 건강한 사람의 노화지연을 판단하기에는 연구 규모·기간·설계가 부족하다고 평가했습니다.','https://pubmed.ncbi.nlm.nih.gov/37851316/')}
+
+<h2>09. GlyNAC은 Glycine 근거와 같은가?</h2>
+<p>아닙니다. GlyNAC은 glycine과 N-acetylcysteine을 동시에 제공해 glutathione 합성의 두 전구체를 보충하는 전략입니다. 동물에서는 수명연장과 미토콘드리아·산화스트레스·mitophagy 개선이 보고됐고, 사람의 소규모 연구에서도 여러 노화 관련 지표가 개선된 적이 있습니다.</p>
+<p>하지만 <b>GlyNAC 효과 = Glycine 단독 효과</b>로 읽으면 안 됩니다. N-acetylcysteine 자체가 glutathione·redox biology에 큰 영향을 주기 때문입니다.</p>
+
+${paper('2022','GlyNAC supplementation in mice increases length of life','Glycine+NAC 조합이 생쥐 수명과 여러 노화 관련 경로를 개선했습니다. Glycine 단독시험은 아닙니다.','https://pubmed.ncbi.nlm.nih.gov/35268089/')}
+
+<h2>10. Creatine — ‘항노화’라는 말보다 ‘기능 보존’이 더 정확하다</h2>
+<p>Creatine은 세 물질 중 가장 덜 미래적으로 들립니다. 운동 보충제로 수십 년 사용됐기 때문입니다. 하지만 건강수명 관점에서는 오히려 이 점이 장점입니다. 장수에서 가장 중요한 실제 결과 중 하나는 <b>나이가 들어서도 근력·근육·보행능력·독립성을 유지하는 것</b>이기 때문입니다.</p>
+<p>Creatine은 phosphocreatine system을 통해 ATP를 빠르게 재생시키고, 저항운동 시 훈련량과 회복을 높여 장기적으로 근력과 제지방 증가를 도울 수 있습니다.</p>
+<p>즉 creatine의 longevity 논리는 “세포를 젊게 만드는 신비한 molecule”이라기보다 <b>노화의 가장 강력한 기능적 완충재인 근육을 보존하는 데 도움이 되는가</b>에 있습니다.</p>
+
+<h2>11. 고령자에서 Creatine + 저항운동의 근거</h2>
+<p>최근 systematic review와 meta-analysis들은 고령자에서 creatine을 저항운동과 병행할 때 근력과 lean mass에 추가적인 이득이 있을 수 있음을 반복해서 보고하고 있습니다. 2025년 메타분석에서도 저항운동과 creatine 병행이 고령자의 근력·제지방량 개선에 유리한 결과를 보였습니다.</p>
+<p>2026년 폐경 후 여성 RCT 메타분석에서도 특히 저항운동과 함께 사용했을 때 lean mass와 leg-press strength가 소폭 향상됐고, 골밀도 효과는 뚜렷하지 않았습니다.</p>
+
+${paper('2025','Creatine + resistance training in the aged: systematic review and meta-analysis','고령자에서 creatine과 저항운동 병행이 근력과 lean tissue mass에 추가 이득을 줄 수 있음을 정리했습니다.','https://pubmed.ncbi.nlm.nih.gov/41388441/')}
+${paper('2026','Creatine monohydrate for lean mass and strength in postmenopausal women','7개 RCT를 종합해 lean mass와 leg-press strength의 소폭 개선을 보고했으며 골밀도 효과는 불확실했습니다.','https://pubmed.ncbi.nlm.nih.gov/42141930/')}
+
+<h2>12. 뇌 건강에도 도움이 될까?</h2>
+<p>Creatine은 뇌에서도 에너지 완충계에 관여하기 때문에 cognition 연구가 활발합니다. 다만 근육 근거만큼 명확하지는 않습니다.</p>
+<p>2024년 systematic review는 뇌 creatine 농도가 증가할 수 있다는 점은 인정했지만 cognition 결과는 일관되지 않다고 평가했습니다. 2026년 고령자 중심 systematic review는 6개 연구 중 다수에서 기억·주의력 관련 긍정적 연관을 보고했지만 전체 근거의 질은 제한적이었습니다.</p>
+<div class="takeaway"><strong>현재 해석</strong><p><b>Creatine의 건강노화 근거는 근육·신체기능에서 가장 강하고, cognition은 유망하지만 아직 2차적 근거</b>로 보는 편이 안전합니다.</p></div>
+
+${paper('2024','Creatine supplementation and cognition: systematic review','뇌 creatine 증가 가능성은 있으나 인지기능 임상결과는 전체적으로 equivocal하다고 평가했습니다.','https://pubmed.ncbi.nlm.nih.gov/38582412/')}
+${paper('2026','Creatine and Cognition in Aging','55세 이상 연구들을 정리해 기억·주의력의 긍정적 신호를 보고했지만 고품질 임상시험이 더 필요하다고 평가했습니다.','https://pubmed.ncbi.nlm.nih.gov/40971619/')}
+
+<h2>13. Creatine과 신장 — creatinine 수치가 오르면 신장이 나빠진 걸까?</h2>
+<p>Creatine을 복용하면 일부가 creatinine으로 전환되기 때문에 혈청 creatinine이 올라갈 수 있습니다. 이때 creatinine 기반 eGFR만 보면 신기능이 떨어진 것처럼 보일 수 있습니다.</p>
+<p>2025~2026년 메타분석들은 creatine 섭취 후 serum creatinine이 소폭 증가할 수 있지만, 더 직접적인 filtration 측정이나 urea·단백뇨 등에서는 신장손상을 뒷받침하는 일관된 변화가 없다고 보고했습니다. 2026년 26개 연구 메타분석에서도 creatinine 기반 GFR은 낮게 계산됐지만 Cr-EDTA로 측정한 GFR에는 유의한 감소가 없었습니다.</p>
+<p>다만 기존 신장질환이 있거나 신독성 약물을 사용하는 사람에서는 일반화하기 어렵고 의료진과 상의해야 합니다.</p>
+
+${paper('2026','Impact of creatine supplementation on kidney health','26개 연구에서 serum creatinine은 증가했지만 Cr-EDTA로 측정한 GFR, albuminuria, proteinuria 등은 신장손상을 지지하지 않았습니다.','https://pubmed.ncbi.nlm.nih.gov/42507286/')}
+
+<h2>14. 세 영양소를 ‘장수 관점’에서 다시 순위 매긴다면</h2>
+<div class="evidence-grid">
+  <div class="evidence-card"><b>1 · Creatine</b><span><strong>가장 실용적인 건강노화 근거.</strong> 인간 RCT가 많고 근력·근육·기능이라는 중요한 healthspan endpoint에 직접 연결됩니다. 하지만 lifespan supplement라고 부를 근거는 없습니다.</span></div>
+  <div class="evidence-card"><b>2 · Taurine</b><span><strong>가장 흥미로운 geroscience 후보.</strong> 동물 수명과 인간 대사지표 근거가 있지만 aging biomarker 서사는 흔들렸고 인간 수명효과는 미검증입니다.</span></div>
+  <div class="evidence-card"><b>3 · Glycine</b><span><strong>기전과 동물수명은 매력적.</strong> ITP 생쥐 수명연장 결과가 있으나 건강한 인간에서 장기 geroprotection을 보여준 임상자료가 부족합니다.</span></div>
+</div>
+
+<h2>15. ‘다음 항노화 영양제’를 찾는 것보다 더 중요한 질문</h2>
+<p>이 세 물질을 비교하면 longevity 분야의 중요한 교훈이 보입니다. <b>동물의 수명을 늘리는 물질과 인간의 건강수명을 실제로 지켜주는 개입은 반드시 같지 않습니다.</b></p>
+<p>Creatine은 생쥐 lifespan headline이 거의 없지만 사람의 근육과 기능 데이터가 강합니다. Taurine은 생쥐 lifespan headline이 강하지만 인간 수명시험은 없습니다. Glycine은 ITP에서 실제 lifespan signal을 보였지만 인간 translation이 아직 약합니다.</p>
+<p>그래서 LONGEVITY JOURNAL의 기준은 ‘가장 화제가 되는 molecule’이 아니라 다음 세 가지입니다.</p>
+<div class="pathway" aria-label="longevity supplement decision framework">
+  <div class="pathway-step"><b>Human evidence</b><span>사람에게 실제로 작동하는가?</span></div><div class="pathway-arrow">→</div>
+  <div class="pathway-step highlight"><b>Meaningful endpoint</b><span>근력 · 기능 · 질병위험 · 사망</span></div><div class="pathway-arrow">→</div>
+  <div class="pathway-step"><b>Risk / benefit</b><span>장기간 사용할 가치가 있는가?</span></div>
+</div>
+
+<h2>16. Evidence Timeline</h2>
+<div class="timeline">
+${paper('2019','Glycine lifespan · NIA ITP','유전적으로 다양한 생쥐에서 glycine이 약 4~6%의 수명연장 신호를 보였습니다.','https://pubmed.ncbi.nlm.nih.gov/30916479/')}
+${paper('2023','Taurine deficiency as a driver of aging','Taurine과 노화를 연결하고 생쥐의 healthspan·lifespan 개선을 보고해 전 세계적인 관심을 일으켰습니다.','https://pubmed.ncbi.nlm.nih.gov/37289866/')}
+${paper('2024','Human glycine systematic review','인간 연구는 소규모·단기간이 많아 geroprotective effect를 판단하기 어렵다고 정리했습니다.','https://pubmed.ncbi.nlm.nih.gov/37851316/')}
+${paper('2024','Taurine metabolic RCT meta-analysis','25개 RCT에서 혈압·공복혈당·중성지방 등의 개선 신호가 확인됐습니다.','https://pubmed.ncbi.nlm.nih.gov/38755142/')}
+${paper('2025','Taurine aging biomarker challenged','여러 인간 코호트와 동물자료에서 taurine이 나이에 따라 일관되게 감소하지 않는다는 결과가 나왔습니다.','https://pubmed.ncbi.nlm.nih.gov/40472098/')}
+${paper('2025','Creatine + resistance training in aging','고령자의 근육·근력 보존에서 creatine과 저항운동 조합의 근거가 다시 정리됐습니다.','https://pubmed.ncbi.nlm.nih.gov/41388441/')}
+${paper('2026','Taurine cardiometabolic meta-analysis','34개 RCT에서 혈당·인슐린저항성·지질·혈압 등 다수의 중간지표 개선을 보고했습니다.','https://pubmed.ncbi.nlm.nih.gov/41275513/')}
+${paper('2026','Creatine kidney safety meta-analysis','혈청 creatinine 상승과 실제 신장손상을 구분해야 한다는 최신 근거가 추가됐습니다.','https://pubmed.ncbi.nlm.nih.gov/42507286/')}
+</div>
+
+<div class="takeaway"><strong>LONGEVITY JOURNAL 결론</strong><p><b>“다음 항노화 영양제”라는 질문에 하나만 답해야 한다면, 현재 인간 건강수명 관점에서는 Creatine이 가장 실용적이고, Taurine이 가장 흥미로운 연구 후보이며, Glycine은 가장 실험적인 후보에 가깝습니다.</b> 그러나 세 물질 모두 건강한 인간의 수명을 연장한다는 직접 증거는 없습니다. 영양제 선택에서 가장 중요한 것은 lifespan headline보다 <b>현재의 근육·심폐체력·혈압·혈당·수면·식사 같은 이미 검증된 건강수명 기반을 얼마나 보완하는가</b>입니다.</p></div>
+
+<p class="small-note"><strong>주의:</strong> 이 글은 연구 근거를 정리한 정보자료이며 개인의 복용을 처방하지 않습니다. 신장질환, 심혈관질환, 임신·수유, 처방약 복용 등 상황에서는 보충제 사용 전 의료진과 상의해야 합니다. 연구에서 사용된 용량은 개인별 권장량을 의미하지 않습니다.</p>
+`
+});
+})();
