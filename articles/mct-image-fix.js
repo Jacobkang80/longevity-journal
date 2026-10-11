@@ -28,6 +28,7 @@ addTopic('#topic/생물학적 나이','Biological age');
 addTopic('#topic/Hormesis','Hormesis');
 addTopic('#topic/Geroscience','Geroscience');
 addTopic('#topic/Senolytics','Senolytics');
+addTopic('#topic/장수 영양소','Longevity nutrients');
 
 const refreshRoute=()=>{
   let tries=0;
@@ -60,4 +61,5 @@ ensureScript('articles/epigenetic-clock-biological-age-deep.js','epigenetic-cloc
 ensureScript('articles/sauna-cold-exposure-longevity-deep.js','sauna-cold','sauna-cold-exposure-longevity-evidence');
 ensureScript('articles/rapamycin-metformin-geroscience-deep.js','geroscience-drugs','rapamycin-metformin-geroscience-evidence');
 ensureScript('articles/senolytics-fisetin-map-deep.js','senolytics-map','senolytics-fisetin-current-evidence');
+ensureScript('articles/taurine-glycine-creatine-longevity-deep.js','longevity-nutrients','taurine-glycine-creatine-longevity-evidence');
 })();
