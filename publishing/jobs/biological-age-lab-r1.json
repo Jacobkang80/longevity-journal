@@ -1,0 +1,21 @@
+{
+  "id": "biological-age-lab-r1",
+  "slug": "biological-age-lab",
+  "revision": 1,
+  "operation": "create",
+  "title": "Biological Age Lab — 건강검진으로 추정 생체나이를 계산해보기",
+  "html": "<p>건강검진 수치를 입력해 모델이 추정하는 생체나이를 살펴보는 LONGEVITY JOURNAL의 계산기입니다.</p><h2>계산기 열기</h2><p><a href=\"https://jacobkang80.github.io/longevity-journal/#post/biological-age-lab\" target=\"_blank\" rel=\"noopener noreferrer\">Biological Age Lab 계산기 실행하기</a></p><p>계산은 GitHub의 원본 페이지에서 이용하실 수 있습니다. 이 Tistory 글은 계산기를 안내하고 연결하는 소개 글입니다.</p><h2>어떤 입력값을 사용할까요?</h2><p>나이·성별과 혈압, 공복혈당, 허리둘레, 크레아티닌 등 원본 계산기에 표시된 건강검진 항목을 준비해 주세요. 원본 페이지에는 검사별 단위와 모델 설명이 함께 있습니다.</p><h2>결과를 읽을 때</h2><p>모델이 산출한 나이는 특정 입력값에 대한 통계적 추정치입니다. 의료 진단, 실제 수명 예측, 치료에 따른 역노화 효과의 증명으로 해석하지 마세요. 검사 시점과 조건이 달라지면 값도 달라질 수 있습니다.</p><p>결과만 비교하기보다 원본 페이지의 모델 설명과 근거자료를 함께 읽어 주세요.</p>",
+  "tags": [
+    "Biological Age Lab",
+    "생체나이 계산",
+    "한국인 생체나이",
+    "건강검진",
+    "Garmin",
+    "VO2max",
+    "Fitness Age",
+    "PhenoAge",
+    "NHIS",
+    "eGFR"
+  ],
+  "sha256": "889f3fac40b0263f91ae51c15b891d1ccea34c4bd24c19c243680ccdfa85afb7"
+}
