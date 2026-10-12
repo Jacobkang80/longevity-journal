@@ -2,7 +2,7 @@
 
 새 원고 31편과 계산기 소개 글 1편을 My EPIC2의 `2. HEALTH`에 신규 공개 발행하기 위한 Windows 프로그램입니다. GitHub 발행 요청을 받아 동작하므로 ChatGPT의 Computer Use 메뉴가 필요하지 않습니다.
 
-**현재 검증:** 로컬 보호 로직 테스트 11개 통과 / 32개 원고 유효성 확인. **미검증:** 석우님 PC 설치, Tistory 실제 공개 발행과 수정. Tistory의 비공식 관리자 통신 방식을 사용하므로 기능 변경·로그인·CAPTCHA·게시 제한에 의해 중단될 수 있습니다. 공식 API나 공식 Tistory 플러그인이 아닙니다.
+**현재 검증:** 로컬 보호 로직 테스트 12개 통과 / 32개 원고 유효성 확인. **미검증:** 석우님 PC 설치, Tistory 실제 공개 발행과 수정. Tistory의 비공식 관리자 통신 방식을 사용하므로 기능 변경·로그인·CAPTCHA·게시 제한에 의해 중단될 수 있습니다. 공식 API나 공식 Tistory 플러그인이 아닙니다.
 
 ## 처음 시작하기
 
@@ -53,3 +53,5 @@ Tistory 로그인 상태는 `%LOCALAPPDATA%\LongevityTistoryPublisher\browser-pr
 큐 파일은 `schema=1`, `blog=https://myepic2.tistory.com`, `category=2. HEALTH`, `enabled=true/false`, `jobs[]`입니다. 최초 신규 작업은 `operation=create`이며 이후 반영은 `operation=update`, `expected_post_id`를 반드시 지정합니다. 동일 원고 slug를 유지하고 revision을 증가시키며 `id=slug-r{revision}` 및 UTF-8 HTML의 SHA-256을 갱신합니다. 성공한 작업의 본문을 같은 ID로 변경하지 마세요. 큐를 수정하기 전에 최신 GitHub 파일 SHA와 결과 파일을 먼저 읽으세요. 기준 원고와 변경한 문장은 함께 검토한 후 발행 요청에 넣습니다. `enabled=false`는 감시기의 새 처리만 멈추며 이미 진행 중인 요청을 취소하지는 않습니다.
 
 기존에 큐에 들어 있는 create 작업이 성공했으면 그대로 둬도 skip 처리됩니다. 새 update를 추가할 때 성공 기록의 postId를 사용합니다. HTML에는 script/iframe/form/입력·버튼 요소와 이벤트 핸들러를 허용하지 않습니다. 서버 오류 응답을 인증정보와 함께 기록하지 않습니다. 원고 파일에는 임의의 실행 명령을 넣을 수 없습니다.
+
+원격 큐의 jobs에는 payload_path가 있으며 실제 본문은 publishing/jobs/slug-rN.json에 따로 보관합니다. 새 revision을 등록할 때 본문 파일부터 저장하고, 마지막에 queue.json에 요청을 추가합니다. 로컬 ZIP의 publishing/queue.json은 검토를 위한 합본이며 프로그램은 GitHub의 원격 큐만 처리합니다.
