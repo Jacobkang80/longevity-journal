@@ -1,0 +1,264 @@
+{
+  "schema": 1,
+  "blog": "https://myepic2.tistory.com",
+  "category": "2. HEALTH",
+  "enabled": true,
+  "jobs": [
+    {
+      "id": "olive-oil-evidence-r1",
+      "slug": "olive-oil-evidence",
+      "revision": 1,
+      "operation": "create",
+      "sha256": "40dc0c84bda03243c27e7327863dc39757aa84ceebe62ddda3f5dd274b04762d",
+      "payload_path": "publishing/jobs/olive-oil-evidence-r1.json"
+    },
+    {
+      "id": "omega3-evidence-guide-r1",
+      "slug": "omega3-evidence-guide",
+      "revision": 1,
+      "operation": "create",
+      "sha256": "79d034ac07c1944d2f8d023fa947f2457c614b07303c6f3bece6fd085569ea4b",
+      "payload_path": "publishing/jobs/omega3-evidence-guide-r1.json"
+    },
+    {
+      "id": "nmn-evidence-guide-r1",
+      "slug": "nmn-evidence-guide",
+      "revision": 1,
+      "operation": "create",
+      "sha256": "04b889fe9c2dc8fc7a9becc1b35bcf35074247292ae298c6d097568c3567b3cf",
+      "payload_path": "publishing/jobs/nmn-evidence-guide-r1.json"
+    },
+    {
+      "id": "fisetin-evidence-guide-r1",
+      "slug": "fisetin-evidence-guide",
+      "revision": 1,
+      "operation": "create",
+      "sha256": "8f797201ac54c5964c8021f7f673d26597a2ab7c1baa3d1fe972c54284f4d740",
+      "payload_path": "publishing/jobs/fisetin-evidence-guide-r1.json"
+    },
+    {
+      "id": "ca-akg-evidence-guide-r1",
+      "slug": "ca-akg-evidence-guide",
+      "revision": 1,
+      "operation": "create",
+      "sha256": "480be4dd9f4c686f68e5e1c7f0931b4631841614d8a7e2ed559b1e80bfa42a92",
+      "payload_path": "publishing/jobs/ca-akg-evidence-guide-r1.json"
+    },
+    {
+      "id": "resveratrol-evidence-r1",
+      "slug": "resveratrol-evidence",
+      "revision": 1,
+      "operation": "create",
+      "sha256": "d70045daa7b7bf3d7349ab42cf031820f30ae57c07a78564578ea7853f3d1886",
+      "payload_path": "publishing/jobs/resveratrol-evidence-r1.json"
+    },
+    {
+      "id": "anthocyanin-evidence-r1",
+      "slug": "anthocyanin-evidence",
+      "revision": 1,
+      "operation": "create",
+      "sha256": "71b44dd01cbf3adf2c37ca55a7c146eb79172764510583b942edb9bd9e763fd9",
+      "payload_path": "publishing/jobs/anthocyanin-evidence-r1.json"
+    },
+    {
+      "id": "mct-oil-evidence-r1",
+      "slug": "mct-oil-evidence",
+      "revision": 1,
+      "operation": "create",
+      "sha256": "35dfd06e817f3ccc516837b3998d3a72bef5908af6b1b31466c0ff96c8db1092",
+      "payload_path": "publishing/jobs/mct-oil-evidence-r1.json"
+    },
+    {
+      "id": "aspirin-evidence-r1",
+      "slug": "aspirin-evidence",
+      "revision": 1,
+      "operation": "create",
+      "sha256": "74aa1984af75a69d46a330ed855766de38b518b9c3ce65aa65e26de7b45b7146",
+      "payload_path": "publishing/jobs/aspirin-evidence-r1.json"
+    },
+    {
+      "id": "tmg-betaine-evidence-r1",
+      "slug": "tmg-betaine-evidence",
+      "revision": 1,
+      "operation": "create",
+      "sha256": "3c55e3f730f0b7a28692165eb57100c344d1d0a8e80f09b1acf270899e4d162c",
+      "payload_path": "publishing/jobs/tmg-betaine-evidence-r1.json"
+    },
+    {
+      "id": "hiit-evidence-guide-r1",
+      "slug": "hiit-evidence-guide",
+      "revision": 1,
+      "operation": "create",
+      "sha256": "84375002eae52224bdeadc0f5fea1e69a0721085882824c82fcf17b73c93e93d",
+      "payload_path": "publishing/jobs/hiit-evidence-guide-r1.json"
+    },
+    {
+      "id": "aging-reversal-healthspan-guide-r1",
+      "slug": "aging-reversal-healthspan-guide",
+      "revision": 1,
+      "operation": "create",
+      "sha256": "eaf55e68cd29a5f006bdceff9aeaa5851e3c14c3547028472ab0b4651c86e778",
+      "payload_path": "publishing/jobs/aging-reversal-healthspan-guide-r1.json"
+    },
+    {
+      "id": "gratitude-health-evidence-r1",
+      "slug": "gratitude-health-evidence",
+      "revision": 1,
+      "operation": "create",
+      "sha256": "46309ef8011f34b92d861a8d02ce26dc0bd6172fe29c67f6393db6bef8b9adf0",
+      "payload_path": "publishing/jobs/gratitude-health-evidence-r1.json"
+    },
+    {
+      "id": "sleep-longevity-evidence-r1",
+      "slug": "sleep-longevity-evidence",
+      "revision": 1,
+      "operation": "create",
+      "sha256": "1ec13627bd60c70548d2aecbec132ab5756894174a65c3cb636ca257790ad51a",
+      "payload_path": "publishing/jobs/sleep-longevity-evidence-r1.json"
+    },
+    {
+      "id": "longevity-supplements-2026-r1",
+      "slug": "longevity-supplements-2026",
+      "revision": 1,
+      "operation": "create",
+      "sha256": "2f1c3149fd66adbe1e4c01a07d03525fe8d95cb036cef609a7e58b8e3bb5653d",
+      "payload_path": "publishing/jobs/longevity-supplements-2026-r1.json"
+    },
+    {
+      "id": "muscle-longevity-evidence-r1",
+      "slug": "muscle-longevity-evidence",
+      "revision": 1,
+      "operation": "create",
+      "sha256": "f9c63eeed0929a0323034a4bcc54bf8433c908d0b2eacca30a29e118553fb03d",
+      "payload_path": "publishing/jobs/muscle-longevity-evidence-r1.json"
+    },
+    {
+      "id": "vo2max-longevity-evidence-r1",
+      "slug": "vo2max-longevity-evidence",
+      "revision": 1,
+      "operation": "create",
+      "sha256": "b08f2243ed5e5311cd319cfdd1464e8506dfdced03b49eec622ef9be6a87b753",
+      "payload_path": "publishing/jobs/vo2max-longevity-evidence-r1.json"
+    },
+    {
+      "id": "insulin-resistance-longevity-evidence-r1",
+      "slug": "insulin-resistance-longevity-evidence",
+      "revision": 1,
+      "operation": "create",
+      "sha256": "a3e632767fa2d9403e7eba21147932bb277ceb8248fbc91c60a440dd4d33c7ce",
+      "payload_path": "publishing/jobs/insulin-resistance-longevity-evidence-r1.json"
+    },
+    {
+      "id": "glycemic-variability-glucose-spikes-evidence-r1",
+      "slug": "glycemic-variability-glucose-spikes-evidence",
+      "revision": 1,
+      "operation": "create",
+      "sha256": "2a0b3a20b7064289612901759f1733797179affdb7a96058139569297466909b",
+      "payload_path": "publishing/jobs/glycemic-variability-glucose-spikes-evidence-r1.json"
+    },
+    {
+      "id": "mtor-ampk-sirtuin-nutrient-sensing-r1",
+      "slug": "mtor-ampk-sirtuin-nutrient-sensing",
+      "revision": 1,
+      "operation": "create",
+      "sha256": "32c36534490ed8c7ed0f40e7c11b5fd9c04f1fee9a02da7f840aa183b9a5befe",
+      "payload_path": "publishing/jobs/mtor-ampk-sirtuin-nutrient-sensing-r1.json"
+    },
+    {
+      "id": "epigenetic-clock-biological-age-evidence-r1",
+      "slug": "epigenetic-clock-biological-age-evidence",
+      "revision": 1,
+      "operation": "create",
+      "sha256": "b473afb5801358f41485793f8a1168a4f8843d3cd1159f5c4640e8649b58f05a",
+      "payload_path": "publishing/jobs/epigenetic-clock-biological-age-evidence-r1.json"
+    },
+    {
+      "id": "sauna-cold-exposure-longevity-evidence-r1",
+      "slug": "sauna-cold-exposure-longevity-evidence",
+      "revision": 1,
+      "operation": "create",
+      "sha256": "b9da721d21f45583848f1f6f72299de2419e240b94f01e40f5c9b1c9c098912d",
+      "payload_path": "publishing/jobs/sauna-cold-exposure-longevity-evidence-r1.json"
+    },
+    {
+      "id": "rapamycin-metformin-geroscience-evidence-r1",
+      "slug": "rapamycin-metformin-geroscience-evidence",
+      "revision": 1,
+      "operation": "create",
+      "sha256": "e1e5fdda584e10929161b6ac4d71c4080f9813aaa3a653e1ee1c139eb45406bd",
+      "payload_path": "publishing/jobs/rapamycin-metformin-geroscience-evidence-r1.json"
+    },
+    {
+      "id": "senolytics-fisetin-current-evidence-r1",
+      "slug": "senolytics-fisetin-current-evidence",
+      "revision": 1,
+      "operation": "create",
+      "sha256": "f79cb226b1b92dc8d0975597232ca0cde634c6dd9e70bf8a2eda210d43655d43",
+      "payload_path": "publishing/jobs/senolytics-fisetin-current-evidence-r1.json"
+    },
+    {
+      "id": "taurine-glycine-creatine-longevity-evidence-r1",
+      "slug": "taurine-glycine-creatine-longevity-evidence",
+      "revision": 1,
+      "operation": "create",
+      "sha256": "708b74bf4938e8054bd4eee7dd5db10739438770926302a6f565c0ab1553f432",
+      "payload_path": "publishing/jobs/taurine-glycine-creatine-longevity-evidence-r1.json"
+    },
+    {
+      "id": "cardiovascular-longevity-numbers-r1",
+      "slug": "cardiovascular-longevity-numbers",
+      "revision": 1,
+      "operation": "create",
+      "sha256": "a5dba06fdd2f31569fe3659f240af7cb26b549d1fecb6ac2413045c38c1d483c",
+      "payload_path": "publishing/jobs/cardiovascular-longevity-numbers-r1.json"
+    },
+    {
+      "id": "intermittent-fasting-evidence-r1",
+      "slug": "intermittent-fasting-evidence",
+      "revision": 1,
+      "operation": "create",
+      "sha256": "f354f8042682303e4bf4a1d2464f3c3edfc48fcc6e5d88be500eb832daa71e1b",
+      "payload_path": "publishing/jobs/intermittent-fasting-evidence-r1.json"
+    },
+    {
+      "id": "ketogenic-diet-evidence-r1",
+      "slug": "ketogenic-diet-evidence",
+      "revision": 1,
+      "operation": "create",
+      "sha256": "35be9e3e49085f99d14fff45ab97ededfac26c1ae200996d0b16a101072433a1",
+      "payload_path": "publishing/jobs/ketogenic-diet-evidence-r1.json"
+    },
+    {
+      "id": "refined-carbohydrate-evidence-r1",
+      "slug": "refined-carbohydrate-evidence",
+      "revision": 1,
+      "operation": "create",
+      "sha256": "d5a2f1f20f925199463e57110aa932183416cefab6be0502af56166629c502b0",
+      "payload_path": "publishing/jobs/refined-carbohydrate-evidence-r1.json"
+    },
+    {
+      "id": "caffeine-evidence-r1",
+      "slug": "caffeine-evidence",
+      "revision": 1,
+      "operation": "create",
+      "sha256": "35d7abc6ac2138b06c4c8785880294f703f4a847636f4d38cfbd180357c1ea92",
+      "payload_path": "publishing/jobs/caffeine-evidence-r1.json"
+    },
+    {
+      "id": "ages-evidence-r1",
+      "slug": "ages-evidence",
+      "revision": 1,
+      "operation": "create",
+      "sha256": "e69e58bc5508b2b70d17789a897ec24cea54dd4178371025005bf3e8ee46acd7",
+      "payload_path": "publishing/jobs/ages-evidence-r1.json"
+    },
+    {
+      "id": "biological-age-lab-r1",
+      "slug": "biological-age-lab",
+      "revision": 1,
+      "operation": "create",
+      "sha256": "889f3fac40b0263f91ae51c15b891d1ccea34c4bd24c19c243680ccdfa85afb7",
+      "payload_path": "publishing/jobs/biological-age-lab-r1.json"
+    }
+  ]
+}
